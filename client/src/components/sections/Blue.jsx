@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import soundBox from "../../public/assets/BlackOne.png"
 
 import './blue.scss'
 
@@ -14,8 +15,8 @@ function Blue(props){
       </div>
       <div class='big-container'>
         <div class='img-box'>
-          <img id='sound-1' src="w4/Front-End-Assessment---Speer_React/client/src/public/assets/BlackOne.png" alt='sound'/>
-          <img id='sound-2' src="../public/assets/BlackOne.png" alt='sound'/>
+          <img id='sound-1' src={soundBox} alt='sound'/>
+          <img id='sound-2' src={soundBox} alt='sound'/>
         </div>
         <div class='container-blue-marine'>
           <div class='title-box-marine'>
