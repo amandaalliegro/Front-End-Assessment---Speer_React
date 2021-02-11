@@ -1,7 +1,10 @@
-import { Link } from "react-router-dom";
+
 
 import './red.scss'
 import sound from "../../public/assets/sound1.png"
+import { Link } from "react-router-dom";
+
+import Music from './Music';
 
 function Red(props){
   return ( 
@@ -24,7 +27,9 @@ function Red(props){
             </button>
           </div>
           <div class='sound-img' id='play'>
+            <Music src='https://mp3trial.s3-sa-east-1.amazonaws.com/music.mp3'>
             <img id='sound' src={sound} alt='sound'/>
+            </Music>
           </div>
         </div>
     </section>
