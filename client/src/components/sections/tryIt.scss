@@ -2,13 +2,16 @@
 
 .plans-container {
   width: 100%;
-  height: 768px;
+  height: 788px;
   background-color: rgb(25, 25, 25);
   font-family: 'Work Sans', sans-serif;
 }
 .container {
+  height: 100%;
   display:block;
-  padding: 90px;
+  padding-top: 90px;
+  padding-left: 210px;
+  padding-right: 330px;
   font-family: 'Work Sans', sans-serif;
 }
 #pricing {
@@ -16,17 +19,23 @@
   color: white;
 }
 #pricing-ttl {
-  padding-left: 90px;
+  
   font-size: 40px;
   font-weight: 600;
+  text-align: start;
+  
 }
 .pricing-txt {
-  padding-left: 90px;
+  
   font-size: 24px;
+  text-align: start;
+
 }
 .boxes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 100%;
+  
 }
 .box {
   display:block;
@@ -39,21 +48,26 @@
   font-size: 22px;
   margin-block-start: 0.3em;
   margin-block-end: 0.3em;
+  text-align: start;
+  padding-left: -10px;
 }
 .plan-ttl-period {
+  text-align: start;
   color: rgb(195, 82, 77);
   font-size: 28px;
   margin-block-start: 0.3em;
-  margin-block-end: 0.3em;
+  margin-block-end: 0.1em;
 
 }
 .plan-ttl-price {
+  text-align: start;
   color: rgb(195, 82, 77);
   font-size: 72px;
   font-weight: 600;
   padding: 0;
   height: 38px;
-  margin-block-end: 1.1em;
+  margin-block-start: 0.3em;
+  
 }
 #red-line {
   display: block;
@@ -62,7 +76,7 @@
   margin-left: 0;
   margin-right: auto;
   border-style: inset;
-  border-top: 2px solid rgb(195, 82, 77);
+  border: 1px solid rgb(195, 82, 77);
   color: rgb(195, 82, 77);
   background-color: rgb(195, 82, 77);
   width: 1.8cm;
@@ -74,7 +88,7 @@
   margin-left: 0;
   margin-right: auto;
   border-style: inset;
-  border-top: 2px solid rgb(244, 181, 87);
+  border: 1px solid rgb(244, 181, 87);
   width: 1.8cm;
   color:rgb(244, 181, 87);
 }
@@ -85,7 +99,7 @@
   margin-left: 0;
   margin-right: auto;
   border-style: inset;
-  border-top: 2px solid rgb(105, 222, 231);
+  border: 1px solid rgb(105, 222, 231);
   width: 1.8cm;
   color:rgb(105, 222, 231);
   
@@ -108,7 +122,7 @@
   height: 45px;
   line-height: 1.2rem;
   margin-right: 1rem;
-  width: 18rem;
+  width: 9rem;
   border-width: 2px;
   border-style: solid;
   color: white;
@@ -149,6 +163,7 @@
   font-size: 44px;
   font-weight: 500;
   height: 90px;
+  text-align: start;
 }
 .box-benefits {
   display: block;
@@ -164,11 +179,21 @@
   color: rgb(195, 82, 77);
 }
 ul {
+  text-align: start;
   list-style-type: "♪ ";
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 18px;
   padding-right: 3px;
+  font-size: 16px;
 }
+
+li {
+  list-style-type: "♪ ";
+  font-size: 20px;
+  margin-block-end: 0.3em;
+
+}
+
 .benefits-txt {
   color:rgb(25, 25, 25);
   font-size: 18px;
