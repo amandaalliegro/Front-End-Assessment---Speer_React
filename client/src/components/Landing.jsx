@@ -1,3 +1,4 @@
+import Black from "./sections/Black";
 import Blue from "./sections/Blue"
 import Footer from "./sections/Footer";
 import Red from "./sections/Red"
@@ -11,6 +12,7 @@ function Landing(props){
     <Slider />
     <Red />
     <Yellow />
+    <Black />
     <Blue />
     <Footer/>
   </div>
