@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+
 
 import './red.scss'
+import sound from "../../public/assets/sound1.png"
 
 function Red(props){
   return ( 
@@ -21,7 +22,7 @@ function Red(props){
             </button>
           </div>
           <div class='sound-img' id='play'>
-            <img id='sound' src="../../public/assets/sound1.png" alt='sound'/>
+            <img id='sound' src={sound} alt='sound'/>
           </div>
         </div>
     </section>
