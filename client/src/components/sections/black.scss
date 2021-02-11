@@ -2,40 +2,50 @@
 
 .black {
   width: 100%;
-  height: 768px;
+  height: 798px;
   background-color: rgb(26, 26, 26);
   font-family: 'Work Sans', sans-serif;
 }
 .container-black {
-padding: 90px;
+  height: 100%;
+  display:block;
+  padding-top: 50px;
+  padding-left: 210px;
+  padding-right: 330px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .title-box {
-  padding-left: 50px;
+  display: contents;
+  position: relative;
+  padding-top: 40px;
+  letter-spacing: 3px;
   color:white;
-  letter-spacing: 4px;
-  font-size: 44px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
   height: 90px;
+  text-align: start;
 }
-.box-benefits {
-  padding-top: 3px;
-  display: block;
-  width: 195px;
-  color: white;
-  font-size: 30px;
-  font-weight: 500;
-  margin-block-start: 0.3em;
-  margin-block-end: 0.3em;
+.title-box-ttl {
+  font-size: 44px;
+}
+
+.box-benefits-black {
+  padding-top: 50px;
+  width: 250px;
+  justify-content: space-around;
 }
 
 #box-benefits-red {
+  text-align: start;
   color: rgb(195, 82, 77);
 }
 #box-benefits-yellow {
+  text-align: start;
   color: rgb(244, 181, 87);
 }
 #box-benefits-blue {
+  text-align: start;
   color: rgb(105, 222, 231);
 }
 #bnf-blue-line {
@@ -47,7 +57,7 @@ padding: 90px;
   border-style: inset;
   color: rgb(105, 222, 231);
   background-color: rgb(105, 222, 231);
-  border-top: 2px solid rgb(105, 222, 231);
+  border: 2px solid rgb(105, 222, 231);
   width: 1.4cm;
 }
 #bnf-red-line {
@@ -59,20 +69,20 @@ padding: 90px;
   border-style: inset;
   color:rgb(195, 82, 77);
   background-color: rgb(195, 82, 77);;
-  border-top: 2px solid rgb(195, 82, 77);
+  border: 2px solid rgb(195, 82, 77);
   width: 1.4cm;
 }
 
 #bnf-yellow-line {
   display: block;
-  margin-top: 0.5em;
+  margin-top: 0em;
   margin-bottom: 0.5em;
   margin-left: 0;
   margin-right: auto;
   border-style: inset;
   color: rgb(244, 181, 87);
   background-color:rgb(244, 181, 87); 
-  border-top: 2px solid rgb(244, 181, 87);
+  border: 2px solid rgb(244, 181, 87);
   width: 1.4cm;
 }
 
@@ -80,7 +90,9 @@ padding: 90px;
   color:rgb(255, 254, 254);
   font-size: 20px;
   font-weight: 400;
-  margin-block-start: 0.1em;
+  text-align: start;
+  text-justify:inter-word;
+  margin-block-start: 0em;
   margin-block-end: 0.3em;
 }
 
@@ -96,6 +108,7 @@ padding: 90px;
 .boxes {
   display: flex;
   justify-content: space-around;
+  width: 1050px;
 }
 
 #btn-try-right-mix {
