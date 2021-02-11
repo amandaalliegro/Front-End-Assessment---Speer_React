@@ -7,11 +7,13 @@ function Blue(props){
   return (
     <section className='landing blue-marine'> 
       <div id='btn-try-right'>
-        <form action="/tryit" method="get" target="_blank">
-          <button type='submit'class='select-btn-white' id='sel-white-blue-float'> 
-            <span>TRY IT NOW</span>
-          </button>
-        </form>
+        <Link to="/plans">
+          <form action="/plans" method="get" target="_blank">
+            <button type='submit'class='select-btn-white' id='sel-white-blue-float'> 
+              <span>TRY IT NOW</span>
+            </button>
+          </form>
+        </Link>
       </div>
       <div class='big-container'>
         <div class='img-box'>

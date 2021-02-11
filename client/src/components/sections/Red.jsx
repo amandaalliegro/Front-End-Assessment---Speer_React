@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 import './red.scss'
 import sound from "../../public/assets/sound1.png"
@@ -7,11 +7,13 @@ function Red(props){
   return ( 
     <section className='landing fade-in-red'>
       <div id='btn-try-right'>
-        <form action="/tryit" method="get" target="_blank">
-        <button type='submit' class='select-btn-white' id='sel-white-float'> 
-          <span>TRY IT NOW</span>
-        </button>
-      </form>
+        <Link to="/plans">
+          <form action="/plans" method="get" target="_blank">
+            <button type='submit' class='select-btn-white' id='sel-white-float'> 
+              <span>TRY IT NOW</span>
+            </button>
+          </form>
+        </Link>
       </div>
         <div class='fade-in-container-sound'>
           <div class='sound-box'>

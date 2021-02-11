@@ -11,11 +11,13 @@ function Slider(props){
           <p class='app-txt'>Experience your favorite artists like never before and from the comfort of your own home</p> 
         </div>
         <div class='btn-slider'>
-          <form action="/tryit" method="get" target="_blank">
-          <button type='submit' class='try-btn-mix-noborder' id='tryIt-btn-multi-color-slider'> 
-            <span>TRY IT NOW</span>
-          </button>
-        </form>
+          <Link to="/plans">
+            <form action="/plans" method="get" target="_blank">
+              <button type='submit' class='try-btn-mix-noborder' id='tryIt-btn-multi-color-slider'> 
+                <span>TRY IT NOW</span>
+              </button>
+            </form>
+            </Link>
         </div>
       </div>    
       

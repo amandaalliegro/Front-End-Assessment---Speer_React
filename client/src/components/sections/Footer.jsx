@@ -1,3 +1,5 @@
+import Mail from "../../public/assets/mail.png"
+
 import './footer.scss'
 
 function Footer(props){
@@ -5,7 +7,7 @@ function Footer(props){
     <section className='landing blue'>
       <div class='container-botton'>
         <div class='contact-box' id='contact'>
-          <p id='contact'> <span class="glyphicon glyphicon-envelope">  support@experienceconcerts.co</span></p>
+          <p id='contact'src={Mail}><span >  support@experienceconcerts.co</span></p>
         </div>
         <div id='brand-footer'>
           <p id='brand-footer'>EXP|CON</p>

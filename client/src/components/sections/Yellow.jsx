@@ -6,11 +6,13 @@ function Yellow(props){
   return (
     <section className='landing yellow-section'>
     <div id='btn-try-right'>
-      <form action="/tryit" method="get" target="_blank">
-      <button type='submit' class='select-btn-white' id='sel-white-yellow-float'> 
-        <span>TRY IT NOW</span>
-      </button>
-    </form>
+      <Link to="/plans">
+        <form action="/tryit" method="get" target="_blank">
+          <button type='submit' class='select-btn-white' id='sel-white-yellow-float'> 
+            <span>TRY IT NOW</span>
+          </button>
+        </form>
+      </Link>  
     </div> 
     <div class='img-bckgrnd'>
     <div class='front-row-container'>
