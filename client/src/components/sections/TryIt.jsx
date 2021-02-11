@@ -12,7 +12,7 @@ function TryIt(props){
             <p class='pricing-txt'>Test our app today! Choose from three subscription</p>
             <p class='pricing-txt'>Based payment models.</p>
           </div>
-          <div class='boxes'>
+          <div class='boxes-plans'>
             <div class='box'>
               <div class='plan-ttl-box'>
               <h4 class='plan-ttl'>BASIC</h4>
