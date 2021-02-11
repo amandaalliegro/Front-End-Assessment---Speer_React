@@ -9,7 +9,7 @@
 .container {
   height: 100%;
   display:block;
-  padding-top: 90px;
+  padding-top: 70px;
   padding-left: 210px;
   padding-right: 330px;
   font-family: 'Work Sans', sans-serif;
@@ -56,7 +56,7 @@
   color: rgb(195, 82, 77);
   font-size: 28px;
   margin-block-start: 0.3em;
-  margin-block-end: 0.1em;
+  margin-block-end: 0.02em;
 
 }
 .plan-ttl-price {
@@ -141,7 +141,7 @@
 }
 .red {
   width: 100%;
-  height: 768px;
+  height: 794px;
   background-color: rgb(195, 82, 77);
   font-family: 'Work Sans', sans-serif;
 }
@@ -189,9 +189,10 @@ ul {
 
 li {
   list-style-type: "♪ ";
-  font-size: 20px;
-  margin-block-end: 0.3em;
-
+  font-size: 26px;
+  font-weight: 500;
+  margin-block-end: 0.1em;
+  letter-spacing: 2px;
 }
 
 .benefits-txt {
