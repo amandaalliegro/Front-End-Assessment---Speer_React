@@ -7,20 +7,24 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-.boxes-container {
+.boxes-container-black-scnd {
   display:flex;
   justify-content: space-around;
   padding-top: 90px;
 }
 
-.title-box {
+
+.title-box-black-scnd {
+  display: block;
   padding-left: 50px;
   color:white;
   letter-spacing: 4px;
   font-size: 44px;
   font-weight: 500;
   height: 90px;
+  text-align: start;
 }
+
 
 .title-box-red {
   padding-left: 50px;

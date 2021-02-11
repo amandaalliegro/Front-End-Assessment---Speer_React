@@ -5,8 +5,8 @@ import './blackScnd.scss'
 function BlackScnd(props){
   return (
     <section class='black-scnd'>
-      <div class='boxes-container'>
-        <div class='title-box'>
+      <div class='boxes-container-black-scnd'>
+        <div class='title-box-black-scnd'>
           <h1 class='title-box-red'>Get exp|con now</h1>
           <p id='txt-black'>Purchase and download the app.</p>
         </div>
