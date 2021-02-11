@@ -72,23 +72,23 @@ function TryIt(props){
             <div class='title-box-perks'>
               <h1 class='title-box-perks' >PERKS</h1>
             </div>
-            <div class='boxes'>
-            <div class='box-benefits'>
+            <div class='boxes-perks'>
+            <div class='box-benefits-perks'>
               <hr id='white-line'/>
-              <h4 class='box-benefits'>Subscription Payment Model</h4>
-              <p class='benefits-txt'>No commitment, cancel anytime. Never worry about forgetting a payment again</p>
+              <h4 class='box-benefits-ttl'>Subscription Payment Model</h4>
+              <p class='benefits-txt-perks'>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
             </div>
             
-            <div class='box-benefits'>
+            <div class='box-benefits-perks'>
               <hr id='white-line'/>
-              <h4 class='box-benefits'>No Fee Cancelation Policy</h4>
-              <p class='benefits-txt'>No commitment, cancel anytime. Never worry about forgetting a payment again</p>
+              <h4 class='box-benefits-ttl'>No Fee Cancelation Policy</h4>
+              <p class='benefits-txt-perks'>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
             </div>
             
-            <div class='box-benefits'>
+            <div class='box-benefits-perks'>
               <hr id='white-line'/>
-              <h4 class='box-benefits'>Subscription Payment Model</h4>
-              <p class='benefits-txt'>No commitment, cancel anytime. Never worry about forgetting a payment again</p>
+              <h4 class='box-benefits-ttl'>Subscription Payment Model</h4>
+              <p class='benefits-txt-perks'>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
             </div>
           </div>
           </div>

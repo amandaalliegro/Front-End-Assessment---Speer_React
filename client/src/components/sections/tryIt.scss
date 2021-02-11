@@ -41,6 +41,14 @@
   height: 100%;
   
 }
+
+.boxes-perks {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  height: 100%;
+  width: 1000px
+}
 .box {
   display:block;
   justify-content: flex-start;
@@ -174,6 +182,7 @@
 .title-box-perks {
   display: flex;
   position: relative;
+  padding-top: 40px;
   letter-spacing: 3px;
   color:white;
   font-size: 44px;
@@ -181,14 +190,21 @@
   height: 90px;
   text-align: start;
 }
-.box-benefits {
+.box-benefits-ttl {
   display: block;
-  width: 195px;
+  width: 205px;
   color: white;
   font-size: 27px;
-  font-weight: 400;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: start;
   margin-block-start: 0.3em;
   margin-block-end: 0.3em;
+}
+.box-benefits-perks {
+  padding-top: 50px;
+  width: 270px;
+  justify-content: space-around;
 }
 
 .box-benefits-red {
@@ -211,10 +227,12 @@ li {
   letter-spacing: 2px;
 }
 
-.benefits-txt {
+.benefits-txt-perks {
   color:rgb(25, 25, 25);
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: start;
+  letter-spacing: 1px;
   margin-block-start: 0.1em;
   margin-block-end: 0.3em;
 }
