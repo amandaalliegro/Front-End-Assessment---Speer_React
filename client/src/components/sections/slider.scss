@@ -311,11 +311,13 @@ ol, li {
   letter-spacing: 4px;
   overflow: hidden;
   position: relative;
-  padding: 2em 3em;
-  margin: 4em;
+  padding: 2em 2em;
+  margin: 1em;
+  height:1.5cm;
   text-transform: uppercase;
   -webkit-tap-highlight-color: transparent;
   transition: all 500ms ease-in-out;
+  cursor: pointer;
 }
 [class*="try-btn"]::after, [class*="btn-"]::before {
   content: "";
@@ -329,8 +331,8 @@ ol, li {
   border-radius: 120px;
   content: attr(data-text);
   color: rgb(255, 255, 255);
-  padding: 1.6em 2.5em;
-  top: 0.4em;
+  
+  top: 0.1em;
   left: 0.5em;
   -moz-user-select: none;
   user-select: none;
@@ -339,7 +341,7 @@ ol, li {
 [class*="try-btn-mix"]::before {
   background: transparent;
   border-radius: 100%;
-  top: 50%;
+  top: 30%;
   left: 50%;
   box-shadow: 0 1em 2em 3em rgba(11, 175, 240, 0.5), 4em 0em 2em 2em rgba(93, 0, 155, 0.6), -4em -2em 2em 2em rgba(255, 0, 150, 0.5), -4em 2em 2em 4em rgba(235, 7, 26, 0.5), 0 -3em 2em 3em rgba(250, 121, 0, 0.5), 2em -1em 2em 2em rgba(240, 205, 9, 0.5);
   width: 0;

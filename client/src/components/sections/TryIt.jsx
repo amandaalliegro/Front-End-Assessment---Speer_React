@@ -1,4 +1,4 @@
-import './black.scss'
+import './tryIt.scss'
 import Footer from './Footer'
 
 function TryIt(props){
@@ -100,3 +100,5 @@ function TryIt(props){
 
 )
 }
+
+export default TryIt

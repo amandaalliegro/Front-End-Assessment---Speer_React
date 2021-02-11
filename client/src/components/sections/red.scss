@@ -26,6 +26,7 @@
 }
 
 #sound-ttl {
+  display: flex;
   color: rgb(255, 255, 255);
   font-size: 44px;
   font-weight: 700;
@@ -41,6 +42,7 @@
   font-size: 30px;
   font-weight: 400;
   font-family: 'Work Sans', sans-serif;
+  text-align: start;
   
 }
 .select-btn {
@@ -50,21 +52,22 @@
   height: 45px;
   line-height: 1.2rem;
   margin-right: 1rem;
-  width: 18rem;
+  width: 10rem;
   border-width: 2px;
   border-style: solid;
   color: white;
   
 }
 
-.select-btn-white {
+#select-btn-white {
   border-radius: 2.5rem;
+  align-self: flex-start;
   border: 0;
   font-size: 12px;
   height: 45px;
   line-height: 1.2rem;
   margin-right: 1rem;
-  width: 22rem;
+  width: 10rem;
   padding: 1em 2em;
   border-style: solid;
  
