@@ -1,14 +1,30 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 
 import './App.css';
+
 import Landing from './components/Landing';
 import Plans from './components/Plans';
 
 function App() {
   return (
-    <div className="App">
-      <Landing />
-      <Plans />
-    </div>
+    <Router>
+      <Switch>
+        <div className="App">
+        <Route path="/">
+          <Landing />
+          </Route>
+          <Route path="/tryit">
+          <Plans />
+          </Route>
+        </div>
+      </Switch>
+    </Router>
   );
 }
 
