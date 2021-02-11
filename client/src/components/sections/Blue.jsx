@@ -14,7 +14,7 @@ function Blue(props){
             </button>
           </form>
         </Link>
-      </div>
+      </div> 
       <div class='big-container'>
         <div class='img-box'>
           <img id='sound-1' src={soundBox} alt='sound'/>
