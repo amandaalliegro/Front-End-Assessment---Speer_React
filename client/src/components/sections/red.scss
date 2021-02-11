@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+.landing fade-in-red {
+  width: 100%;
+  height: 768px;
+  background-color: rgb(195, 82, 77);
+  font-family: 'Work Sans', sans-serif;
+  margin-block-start:0;
+  margin-block-end:0;
+}
+.fade-in-container-sound{
+  display: flex;
+  width: auto;
+  height: 100%;
+  
+}
+
+.sound-box {
+  display:block;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding-left: 180px;
+  padding-top: 160px;
+  width: 800px;
+  height: 100%;
+}
+
+#sound-ttl {
+  color: rgb(255, 255, 255);
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+#sound-txt {
+  display: block;
+  width: auto;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  
+}
+.select-btn {
+  border-radius: 2.5rem;
+  border: 0;
+  font-size: 13px;
+  height: 45px;
+  line-height: 1.2rem;
+  margin-right: 1rem;
+  width: 18rem;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+  
+}
+
+.select-btn-white {
+  border-radius: 2.5rem;
+  border: 0;
+  font-size: 12px;
+  height: 45px;
+  line-height: 1.2rem;
+  margin-right: 1rem;
+  width: 22rem;
+  padding: 1em 2em;
+  border-style: solid;
+ 
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}
+
+#sel-white {
+  font-weight: 700;
+  background-color: white;
+  border-color: white;
+  color: rgb(187, 37, 29);
+}
+#sel-white-float {
+  width: 120px;
+  top:0;
+  right:0;
+  position:relative;
+  font-weight: 700;
+  background-color: white;
+  border-color: white;
+  color: rgb(187, 37, 29);
+}
+#btn-try-right {
+  padding-left: 87%;
+  padding-top: 5%;
+}
+
+#sound{
+  margin-top: 80px;
+  margin-left: 40px;
+  cursor:pointer;
+  height: 400px;
+  
+  width: auto;
+  -webkit-filter: drop-shadow(10px 10px 10px #222);
+  filter: drop-shadow(6px 12px 20px #0a0a0a);
+}
+
+ul {
+  list-style-type: "♪ ";
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 3px;
+}
+.benefits-txt {
+  color:rgb(25, 25, 25);
+  font-size: 18px;
+  font-weight: 500;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.3em;
+}
