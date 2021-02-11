@@ -9,7 +9,7 @@
 .container {
   height: 100%;
   display:block;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-left: 210px;
   padding-right: 330px;
   font-family: 'Work Sans', sans-serif;
@@ -23,17 +23,21 @@
   font-size: 40px;
   font-weight: 600;
   text-align: start;
+  margin-block-end: 0.5rem;
   
 }
 .pricing-txt {
   
   font-size: 24px;
   text-align: start;
+  margin-block-end: 0;
+  margin-block-start: 0.5rem;
 
 }
 .boxes {
   display: flex;
   justify-content: space-between;
+  padding-top: 70px;
   height: 100%;
   
 }
@@ -66,7 +70,7 @@
   font-weight: 600;
   padding: 0;
   height: 38px;
-  margin-block-start: 0.3em;
+  margin-block-start: 0.1em;
   
 }
 #red-line {
@@ -130,14 +134,23 @@
 #sel-red {
   background-color: rgb(195, 82, 77);
   border-color: rgb(195, 82, 77);
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 #sel-yellow {
   background-color: rgb(244, 181, 87);
   border-color: rgb(244, 181, 87);
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 #sel-blue {
   background-color: rgb(105, 222, 231);
   border-color: rgb(105, 222, 231);
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .red {
   width: 100%;
