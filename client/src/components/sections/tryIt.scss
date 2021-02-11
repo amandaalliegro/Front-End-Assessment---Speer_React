@@ -170,11 +170,14 @@
   background-color: rgb(195, 82, 77);
   width: 1.4cm;
 }
-.title-box {
-  padding-left: 50px;
+
+.title-box-perks {
+  display: flex;
+  position: relative;
+  letter-spacing: 3px;
   color:white;
   font-size: 44px;
-  font-weight: 500;
+  font-weight: 700;
   height: 90px;
   text-align: start;
 }

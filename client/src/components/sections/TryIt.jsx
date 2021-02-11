@@ -69,8 +69,8 @@ function TryIt(props){
       </section>
       <section class='red'>
           <div class='container'>
-            <div class='title-box'>
-              <h1 class='title-box'>PERKS</h1>
+            <div class='title-box-perks'>
+              <h1 class='title-box-perks' >PERKS</h1>
             </div>
             <div class='boxes'>
             <div class='box-benefits'>
