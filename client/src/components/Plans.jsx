@@ -8,7 +8,7 @@ function Plans(props){
   return (
   <div className='Plans'>
     <TryIt />
-    <Footer />
+    
   </div>
   );
 }

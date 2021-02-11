@@ -7,12 +7,14 @@ function Footer(props){
         <div class='contact-box' id='contact'>
           <p id='contact'> <span class="glyphicon glyphicon-envelope">  support@experienceconcerts.co</span></p>
         </div>
-        <div id='brand'>
-          <p id='brand'>EXP|CON</p>
+        <div id='brand-footer'>
+          <p id='brand-footer'>EXP|CON</p>
         </div>
+        <p id='footer-f'>2019 All Rights Reserved | Speer Technologies Incorporated</p> 
       </div>
-      <footer id='footer'>2019 All Rights Reserved | Speer Technologies Incorporated</footer> 
+      
     </section>
+    
     
   );
 }
