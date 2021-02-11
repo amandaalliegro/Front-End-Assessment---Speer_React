@@ -4,7 +4,7 @@ import './yellow.scss'
 
 function Yellow(props){
   return (
-    <section className='landing yellow-section'>
+    <section className='yellow'>
     <div id='btn-try-right'>
       <Link to="/plans">
         <form action="/tryit" method="get" target="_blank">
@@ -24,7 +24,7 @@ function Yellow(props){
       </div>
       <div class='front-box'>
         <h1 id='front-ttl'>front row seats</h1>
-        <p id='front-txt'>Experience concerts up close and personal</p>
+        <p id='front-txt'>Experience concerts up close and personal.</p>
         <button class='select-btn-white' id='sel-white-yellow'> 
           <span>SEE DEMO</span>
         </button>

@@ -40,7 +40,8 @@
   width: auto;
   color: rgb(0, 0, 0);
   font-size: 30px;
-  font-weight: 400;
+  letter-spacing: 2px;
+  font-weight: 500;
   font-family: 'Work Sans', sans-serif;
   text-align: start;
   
@@ -81,6 +82,9 @@
 }
 
 #sel-white {
+  display: flex;
+  position: relative;
+  padding-left: 50px;
   font-weight: 700;
   background-color: white;
   border-color: white;
