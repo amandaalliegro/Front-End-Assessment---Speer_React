@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import './blackScnd.scss'
 
 function BlackScnd(props){

@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 import './black.scss'
 
 function Black(props){
   return (
     <section class='black'>
       <div id='btn-try-right-mix'>
-        <form action="/tryit" method="get" target="_blank">
-          <button type='submit' class='try-btn-mix-noborder' id='tryIt-btn-mix'> 
+        <Link to="/plans">
+          <button type='submit' href="/plans"class='try-btn-mix-noborder' id='tryIt-btn-mix'> 
             <span>TRY IT NOW</span>
           </button>
-          </form>
+        </Link>
       </div> 
       <div class='container-black'>
         <div class='title-box'>

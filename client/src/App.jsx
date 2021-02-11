@@ -18,10 +18,10 @@ function App() {
         <div className="App">
         <Route path="/">
           <Landing />
-          </Route>
-          <Route path="/tryit">
+        </Route>
+        <Route path="/plans">
           <Plans />
-          </Route>
+        </Route>
         </div>
       </Switch>
     </Router>

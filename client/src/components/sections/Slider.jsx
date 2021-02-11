@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import './slider.scss'
 
 function Slider(props){
