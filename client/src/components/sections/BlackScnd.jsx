@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './blackScnd.scss'
 
 function BlackScnd(props){
+  
   return (
     <section class='black-scnd'>
       <div class='boxes-container-black-scnd'>
@@ -11,9 +12,9 @@ function BlackScnd(props){
           <p id='txt-black'>Purchase and download the app.</p>
         </div>
         <div id='btn-try-center-mix'>
-          <Link to="/plans">
+          <Link to="/plans" >
             <form action="/plans" method="get" target="_blank">
-              <button type="submit" class='try-btn-mix-noborder' id='tryIt-btn-multi-color-slider'> TRY IT NOW</button>
+              <button type="submit"  class='try-btn-mix-noborder' id='tryIt-btn-multi-color-slider'> TRY IT NOW</button>
             </form>
           </Link>
         </div> 
