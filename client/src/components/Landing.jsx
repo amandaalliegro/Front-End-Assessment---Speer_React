@@ -2,6 +2,7 @@ import Black from "./sections/Black";
 import BlackScnd from "./sections/BlackScnd";
 import Blue from "./sections/Blue"
 import Footer from "./sections/Footer";
+import TopNav from "./sections/Menu";
 import SidebarNavs from "./sections/Menu";
 import Menu from "./sections/Menu";
 import Red from "./sections/Red"
@@ -12,7 +13,7 @@ import Yellow from "./sections/Yellow"
 function Landing(props){
   return (
   <div className='landing'>
-    <SidebarNavs />
+    <TopNav />
     <Slider />
     <Red />
     <Yellow />

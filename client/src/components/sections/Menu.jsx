@@ -1,39 +1,29 @@
-import React from 'react'
+import MenuSandwich from "../../public/assets/menu.png"
 import "./menu.scss"
+import React from 'react'
 
 class Menu extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-        activeCollapse: 'circulars'
-    };
+  constructor(props){
+  super(props);
+  this.state = {
+  open: false
   }
-
-  handleExpandCollaps = (name) => {
-    if (this.state.activeCollapse === name) {
-        this.setState({ activeCollapse: '' })
-    } else {
-        this.setState({ activeCollapse: name })
-    }
+  this.togglePanel = this.togglePanel.bind(this);
   }
-
-  moreInfoClick = (e) => {
-    e.stopPropagation();
-    console.log("clicked");
+  togglePanel(e){
+  this.setState({open: !this.state.open})
   }
   render() {
-    return  (
-     <div  className={`collapsible ${this.state.activeCollapse === "circulars" ? 'item-active' : ''}`} onClick={() => this.handleExpandCollaps("circulars")}>
-      <div onClick={this.moreInfoClick} id='collapsible-btn'>&#9776 EXP|CON
-      <div class="content" id='collapsible-menu'>
-        <div class='menu-txt'>
-          <p id='menu-color'>What is it</p>
-          <p>Perks pricing</p>
-        </div>
-      </div>
-    </div>
-    </div> 
-    )
+  return (<div>
+  <div onClick={(e)=>this.togglePanel(e)} className='header'><img id='menu-sandwich'src={MenuSandwich}/>EXP|CON
+  {this.props.title}</div>
+  {this.state.open ? (
+  <div className='content'>
+  {this.props.children} 
+  <p>WHAT IS IT PERKS PRICING</p>
+  </div>
+  ) : null}
+  </div>);
   }
-}
+  }
 export default Menu
