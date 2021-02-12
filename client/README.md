@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Front-end-Assessment - React version
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build as an assessment to Speer following the present directions: https://miro.com/app/board/o9J_lWzLOeE=/?moveToWidget=3074457353832446689&cot=14;
+
+
+
+## Some images from the Final Product
+
+!['home'](https://github.com/amandaalliegro/Front-End-Assessment---Speer_React/blob/master/client/docs/Screen%20Shot%202021-02-12%20at%208.25.43%20AM.png?raw=true)
+
+!['home'](https://github.com/amandaalliegro/Front-End-Assessment---Speer_React/blob/master/client/docs/Screen%20Shot%202021-02-12%20at%208.26.03%20AM.png?raw=true)
+
+!['home'](https://github.com/amandaalliegro/Front-End-Assessment---Speer_React/blob/master/client/docs/Screen%20Shot%202021-02-12%20at%208.26.22%20AM.png?raw=true)
+
+!['home'](https://github.com/amandaalliegro/Front-End-Assessment---Speer_React/blob/master/client/docs/Screen%20Shot%202021-02-12%20at%208.26.39%20AM.png?raw=true)
+
+!['home'](https://github.com/amandaalliegro/Front-End-Assessment---Speer_React/blob/master/client/docs/Screen%20Shot%202021-02-12%20at%208.26.52%20AM.png?raw=true)
+
+!["plans"](https://github.com/amandaalliegro/Front-End-Assessment---Speer_React/blob/master/client/docs/Screen%20Shot%202021-02-12%20at%208.27.15%20AM.png?raw=true)
+
+!["plans"](https://github.com/amandaalliegro/Front-End-Assessment---Speer_React/blob/master/client/docs/Screen%20Shot%202021-02-12%20at%208.27.34%20AM.png?raw=true)
+
+## Dependencies
+`npm install` to install all dependencies
 
 ## Available Scripts
 
